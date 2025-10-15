@@ -2,7 +2,7 @@ services:
   telegram-stremio:
     build: .
     ports:
-      - "8000:8000"
+      - "7000:7000"
     volumes:
       - ./config.env:/app/config.env
     restart: unless-stopped
